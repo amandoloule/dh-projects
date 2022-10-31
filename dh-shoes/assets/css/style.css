@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
+}
+
+nav ul, nav ul li {
+    display: inline;
+    list-style: none;
+    color: #777777;
+}
+
+nav li {
+    margin-right: 20px;
+    font-size: 2.1rem;
+}
+
+section.banner img {
+    width: 100%;
+}
+
+section.estilo {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+section.estilo h2 {
+    font-size: 3.75rem;
+    margin-bottom: 70px;
+}
+
+section.estilo .images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+section.estilo .images img {
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+
+/* section.estilo .images img:first-child {
+    margin-right: 50px;
+} */
+
+section.off {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #C2185B;
+}
+
+section.off h2 {
+    font-size: 3.75rem;
+    margin-bottom: 70px;
+    color: #fff;
+}
+
+section.off .items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+section.off .items div {
+    /* margin-right: 50px; */
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+section.off .items img {
+    max-width: 100%;
+}
+
+section.off .items p {
+    text-align: justify;
+    padding: 15px;
+}
+
+section.girl {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+section.girl .titulo {
+    font-size: 2.44rem;
+    margin-bottom: 30px;
+}
+
+section.girl .botao {
+    display: block;
+    padding: 25px;
+    background-color: #C2185B;
+    max-width: 400px;
+    font-size: 2.44rem;
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+section.girl img {
+    max-width: 100%;
+}
+
+section.form {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+section.form form {
+    max-width: 650px;
+    margin: 0 auto;
+    border: 1px solid #9B9B9B;
+    padding: 30px;
+    box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
+}
+
+section.form form h1 {
+    text-align: center;
+    font-size: 2.44rem;
+    color: #575757;
+    margin-bottom: 15px;
+}
+
+section.form form label, section.form form input {
+    display: block;
+}
+
+section.form form label {
+    font-size: 1.13rem;
+    font-weight: bold;
+    color: #9B9B9B;
+}
+
+section.form form input, section.form form select {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+    border: 1px solid #9B9B9B;
+}

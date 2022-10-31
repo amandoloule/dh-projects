@@ -1,0 +1,20 @@
+
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    color: #ec183f;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}

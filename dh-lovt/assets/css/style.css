@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ropa Sans', sans-serif;
+    color: #777777;
+}
+
+.container-header {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 1.9rem;
+}
+
+header p {
+    font-size: 0.6rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.container-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+main section.slide {
+    height: 250px;
+    background-image: url("../img/img-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+main section.products {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 20px auto;
+}
+
+main section.products .p-1, .p-2 {
+    background-color: #EEEEEE;
+}
+
+main section.products img {
+    width: 100%;
+}
+
+main section.products .description {
+    padding: 10px;
+}
+
+main section.products .desc-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+main section.products .desc-top .price {
+    font-size: 1.56rem;
+}
+
+main section.products .desc-top .badge {
+    width: 55px;
+    height: 20px;
+    border-radius: 10.5px;
+    text-align: center;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+
+.badge-green {
+    background-color: #51D275;
+}
+
+.badge-brown {
+    background-color: #DC9730;
+}
+
+section.your-style {
+    margin: 20px auto;
+}
+
+section.your-style > h2 {
+    text-align: center;
+    font-size: 1.56rem;
+    margin-bottom: 10px;
+}
+
+section.your-style > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section.your-style .industrial, section.your-style .modern, section.your-style .classic {
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.your-style .industrial h3, section.your-style .modern h3, section.your-style .classic h3 {
+    font-size: 1.56rem;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+section.your-style .industrial {
+    background-image: url("../img/industrial.jpg");
+}
+
+section.your-style .modern {
+    background-image: url("../img/modern.jpg");
+}
+
+section.your-style .classic {
+    background-image: url("../img/classic.jpg");
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+    background-color: #333333;
+}
+
+footer > img {
+    max-width: 252px;
+}
+
+footer p {
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    font-size: 0.75rem;
+}
+
+footer p.social {
+    margin-top: 10px;
+}
+
+footer p img {
+    margin-right: 10px;
+}
